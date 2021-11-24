@@ -1,0 +1,20 @@
+{
+  "name": "m5-album-collection-restful-foxes",
+  "version": "1.0.0",
+  "description": "Our super hip ironic friend needs an easy way to curate soundscapes for the Italian scooter/coffee hybrid co-op startup at which they volunteer (they also fix old polaroid cameras).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2021-Fall-Cohort/m5-album-collection-restful-foxes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2021-Fall-Cohort/m5-album-collection-restful-foxes/issues"
+  },
+  "homepage": "https://github.com/2021-Fall-Cohort/m5-album-collection-restful-foxes#readme"
+}

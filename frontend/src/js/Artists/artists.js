@@ -16,7 +16,7 @@ export function viewAddArtist()
         Artist <select id="listArtists"> </select>
         ImageURL <input type="text" value="" id="artist_image" />
         Record Label <input type="text" value="" id="artist_recordLabel" />
-        <button id="btnSaveAlbum">Save Album</button>
+        <button id="btnSaveAlbum">Save Artist</button>
     </div>
     `
     const artistsSelectList = document.getElementById("listArtists")
@@ -105,9 +105,9 @@ function viewEditArtist(id)
         `
         <div class="editPage">
             Name <input type="text" value="${artist.name}" id="artist_name" />
-            Albums <select id="listAlbums"> </select>
             ImageURL <input type="text" value="${artist.image}" id="artist_image" />
             Record Label <input type="text" value="${artist.RecordLabel}" id="artist_recordLabel" />
+            Age <input type="text" value="${artist.age}" id="artist_age" />
             <button id="btnSaveEdit">Save Artist</button>
         </div>
         `

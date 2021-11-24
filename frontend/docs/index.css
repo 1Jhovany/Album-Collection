@@ -88,7 +88,7 @@ input[type=text], select {
     border-style: double;
     text-align: center;
     margin-left: 35em;
-    margin-right: 10em;
+    margin-right: 35em;
     border-width: .375em;
 }
 #navbar a:hover{
